@@ -1,0 +1,76 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: #000080;
+	#c7b39b
+	url(синий.jpg)
+	ring top
+	no-repeat
+	fixed;
+}
+main {
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	background-color: #008080;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.photo {
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px) / 16 * 9);
+	margin: 10px;
+	background-color: orange;
+}
+h1 {
+	width: 100%;
+	font-size: 48px;
+	text-align: center;
+	font-family: MV BOLI;
+}
+.photo1 {
+	background: url(1.jpg);
+	background-size: 100% 100%;
+}
+.photo2 {
+	background: url(2.jpg);
+	background-size: 100% 100%;
+}
+.photo3 {
+	background: url(3.jpg);
+	background-size: 100% 100%;
+}
+.photo4 {
+	background: url(4.jpg);
+	background-size: 100% 100%;
+}
+.photo:hover {
+	transform: rotate(3deg) scale(1.07);
+	transition: all 0.5s ease;
+}
+.flex {
+	display: flex;
+	justify-content: center;
+}
+video {
+	height: 600px;
+	width: 1000px;
+}
+@font-face {
+	font-family: roboto
+	src: url(../fonts/22.ttf);
+}
+.gg { 
+background-color: orange; 
+color: black; 
+padding: 15px 25px; 
+text-align: center; 
+font-size: 16px; 
+cursor: pointer; 
+}
+.div {
+	justify-content: center;
+}
